@@ -1,0 +1,114 @@
+#footer{
+    text-align: center;
+    vertical-align: middle;
+}
+#footer .top p{
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: #063853;
+}
+#footer .nav, #footer .nav li, #footer .contacts, #footer .mid{
+    text-align: left;
+}
+#footer .top{
+    background: #e1f8ff;
+    height: 160px;
+    width: 100%;
+    border: 1px solid #fff;
+    box-shadow: 0 -1px 0 1px #e6eced;
+    padding-top: 15px;
+}
+#footer .wrap{
+    text-align: justify;
+    line-height: 0;
+    font-size: 1px;
+    text-justify: newspaper;
+    width: 100%;
+}
+#footer .nav, #footer .contacts, #footer .socials{
+    font-size: 16px;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+}
+#footer .fake{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    vertical-align: top;
+    height:0;
+	line-height:0;
+	font-size:0;
+	margin:0;
+}
+#footer .nav  ul{
+    list-style-type: circle;
+}
+#footer .contacts .mid{
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+#footer .contacts li{
+    line-height: 22px;
+}
+#footer .contacts a{
+    color: #02607f;
+    line-height: 30px;
+}
+#footer .socials{
+    text-align: right;
+}
+#footer .socials p{
+    color: #067fad;
+    display: inline-block;
+    padding-right: 10px;
+}
+#footer .soc {
+	margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+#footer .soc li{
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    width: 28px;
+}
+#footer .fb{
+    background: #43609C;
+    font-family: "fontello";
+}
+#footer .tweet{
+    background: #33CCFF;
+    font-family: "fontello";
+}
+#footer .in{
+    background: #0274B3;
+    font-family: "fontello";
+}
+#footer .digg{
+    background: #242424;
+    font-family: "fontello";
+}
+#footer .fb, #footer .tweet, #footer .in, #footer .digg{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 2px;
+    text-decoration: none;
+}
+#footer i{
+    color: #fff;
+    line-height: 28px;    
+}
+#footer .bottom{
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to bottom, #36c3f1, #0b7699);
+    color: #fff;
+    line-height: 45px;
+    border: 1px solid #fff;
+    box-shadow: 0 -1px 0 1px #37c5f3;
+}

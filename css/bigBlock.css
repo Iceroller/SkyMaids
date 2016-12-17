@@ -1,0 +1,202 @@
+.bigBlock{
+    width: 100%;
+    font-size: 0px;
+    line-height: 0px;
+    z-index: 20;
+    margin-bottom: 30px;
+}
+.bigBlock a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 11px;
+}
+.bigBlock li{
+    font-size: 11px;
+}
+.bigBlock #aside, .bigBlock #content{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+    height: 100%;
+}
+.bigBlock #aside{
+    width: 25%;
+    padding-right: 10px;
+}
+.bigBlock .top, .bigBlock .mid{
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.bigBlock .intro, .bigBlock .title{
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-bottom: 2px;
+}
+.bigBlock p{
+    font-size: 18px;
+    color: #414141;
+}
+.bigBlock .intro{
+    background: linear-gradient(to bottom, #fff, #ececec);
+    border: 1px solid #e0e0e0;
+}
+.bigBlock .top ul{
+    background: #f2f2f2;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+.bigBlock .top li{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    box-shadow: 0px 1px 1px #fff;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+.bigBlock .top li:last-child{
+    box-shadow: none;
+    border: none;
+}
+.bigBlock .top a, .bidBlock .mid li{
+    color: 8e8e8e;
+}
+.bigBlock .title{
+    background: linear-gradient(to bottom, #fff, #e5f6ff);
+    border: 1px solid #dceef7;
+}
+.bigBlock .mid ul{
+    background: #ffffff;
+    border: 1px solid #dceef7;
+    border-radius: 3px;
+}
+.bigBlock .mid li{
+    display: block;
+    border: none;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+.bigBlock .mid span{
+    font-weight: 700;
+    color: #8e8e8e;
+}
+.bigBlock .mid a{
+    color: #9a990a;
+    font-weight: 700;
+}
+.bigBlock .bot{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #dceef7;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 30px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: linear-gradient(45deg, #1a90c6 0px, #1a90c6 9%, #fff 9%, #fff 14%, #e3f2fa 15%, #ecf9ff 16%, #ecf9ff 22%, #e3f2fa 23%, #fff 24%, #fff 29%, #e3f2fa 30%, #ecf9ff 31%, #ecf9ff 38%, #e3f2fa 39%, #fff 40%, #fff 45%, #e3f2fa 46%, #ecf9ff 47%, #ecf9ff 53%, #e3f2fa 54%, #fff 55%, #fff 60%, #e3f2fa 61%, #ecf9ff 62%, #ecf9ff 69%, #e3f2fa 70%, #fff 71%, #fff  76%, #e3f2fa 77%, #ecf9ff 78%, #ecf9ff 84%, #e3f2fa 85%, #fff 86%, #fff 91%, #1a90c6 91%, #1a90c6);
+}
+.bigBlock .bot h3{
+    color: #414141;
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+.bigBlock .bot h4{
+    color: #12516d;
+    font-size: 12px;
+    font-style: italic;
+}
+.bigBlock #content{
+    width: 75%;
+    font-size: 0;
+    line-height: 0;  
+}
+.bigBlock .leftSide, .bigBlock .rightSide{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+    height: 100%;
+}
+.bigBlock .leftSide{
+    width: 60%;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    padding: 20px;
+    height: 100%;
+    background: #fff;
+}
+.bigBlock .leftSide h2{
+    font-size: 30px;
+    font-style: italic;
+    color: #414141;
+}
+.bigBlock .leftSide ul{
+    padding: 10px 0 20px 0;
+}
+.bigBlock .leftSide li{
+    line-height: 40px;
+    color: #526268;
+}
+.bigBlock .leftSide p{
+    color: #106a92;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+.bigBlock .leftSide span{
+    font-size: 17px;
+    display: block;
+}
+.bigBlock .rightSide{
+    width: 40%;
+    padding-left: 10px;
+}
+.bigBlock .rightSide div{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+.bigBlock .rightSide div:last-child{
+   margin: 0;
+}
+.bigBlock .block1{
+    background: linear-gradient(to bottom, #9b8c6e, #3c3226);
+    box-shadow: 0 0 0 1px #b5a288;
+}
+.bigBlock  .block2{
+    background: linear-gradient(to bottom, #fbab00, #b46600);
+    box-shadow: 0 0 0 1px #e79a33;
+}
+.bigBlock  .block3{
+    background: linear-gradient(to bottom, #e3eb17, #b3b100);
+    box-shadow: 0 0 0 1px #c8ca0a;
+}
+.bigBlock  .block4{
+    background: linear-gradient(to bottom, #b5dbe6, #3ea0cc);
+    box-shadow: 0 0 0 1px #a7cfe0;
+}
+.bigBlock  .block5{
+    background: linear-gradient(45deg, #aaa904 0px, #aaa904 9%, #fff 9%, #fff 14%, #f3f3bc 15%, #fbfbc4 16%, #fbfbc4 22%, #f3f3bc 23%, #fff 24%, #fff 29%, #f3f3bc 30%, #fbfbc4 31%, #fbfbc4 38%, #f3f3bc 39%, #fff 40%, #fff 45%, #f3f3bc 46%, #fbfbc4 47%, #fbfbc4 53%, #f3f3bc 54%, #fff 55%, #fff 60%, #f3f3bc 61%, #fbfbc4 62%, #fbfbc4 69%, #f3f3bc 70%, #fff 71%, #fff  76%, #f3f3bc 77%, #fbfbc4 78%, #fbfbc4 84%, #f3f3bc 85%, #fff 86%, #fff 91%, #aaa904 91%, #aaa904);
+    box-shadow: 0 0 0 1px #eeed65;
+}
+.bigBlock  #fff
+.bigBlock  #f3f3bc
+.bigBlock  #fbfbc4
