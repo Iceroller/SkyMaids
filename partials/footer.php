@@ -30,21 +30,22 @@
                         <ul>
                             <li>
                                 <a class="fb" href="#">
-                                    <i class="icon-facebook">&#xf099;</i>
+                                    <i class="icon-facebook"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="tweet" href="#">
-                                    <i class="icon-twitter">&#xf09a;</i>
+                                    <i class="icon-twitter"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="in" href="#">
-                                    <i class="icon-linkedin">&#xf0e1;</i>
+                                    <i class="icon-linkedin"></i>
                                 </a>
-                            </li><li>
+                            </li>
+                            <li>
                                 <a class="digg" href="#">
-                                    <i class="icon-digg">&#xf1a6;</i>
+                                    <i class="icon-digg"></i>
                                 </a>
                             </li>
                          </ul>

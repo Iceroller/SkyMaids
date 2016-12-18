@@ -30,8 +30,7 @@
 	BODY
 	========================================================================== */
 body {
-    font-size: 16px;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font: 16px 'Source Sans Pro', Arial, Helvetica, sans-serif;
     color: #565656;
     width: 100%;
     margin:0;
@@ -176,7 +175,7 @@ sub, sup {line-height:0; position:relative; vertical-align:baseline;}
 sub {bottom:-0.25em;}
 sup {top:-0.5em;}
 svg:not(:root) {overflow:hidden;}
-p {margin:0 0 0px;}
+p {margin:0;}
 hr {display:block; height:1px; border:0; border-top:1px solid #ccc; margin:0; padding:0;}
 *+html hr {margin:-7px 0;}
 mark {background:#ff0;}

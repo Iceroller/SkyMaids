@@ -1,8 +1,51 @@
 (function($) {
     $(function(){
         slider();
+        readme();
         /*This area from init Function*/
     });
+
+
+    function readme(){
+
+        $(function() {
+
+            var $dot5 = $('.readme');
+            $dot5.append( ' <a class="toggle" href="#"><span class="open">[ + ]</span><span class="close">[ - ]</span></a>' );
+
+
+            function createDots()
+            {
+                $dot5.dotdotdot({
+                    after: 'a.toggle'
+                });
+            }
+            function destroyDots() {
+                $dot5.trigger( 'destroy' );
+            }
+            createDots();
+
+            $dot5.on(
+                'click',
+                'a.toggle',
+                function() {
+                    $dot5.toggleClass( 'opened' );
+
+                    if ( $dot5.hasClass( 'opened' ) ) {
+                        destroyDots();
+                    } else {
+                        createDots();
+                    }
+                    return false;
+                }
+            );
+
+
+
+        });
+
+    }
+
     function slider(){
 
         jQuery(function($) {
@@ -20,7 +63,7 @@
                 elements: {
                     slider: $('#slick'),
                     slickAllThumbs: $('.slick-dots button'),
-                    slickActiveThumb: $('.slick-dots .slick-active button'),
+                    slickActiveThumb: $('.slick-dots .slick-active button')
 
                 },
 
@@ -53,7 +96,8 @@
                         speed: set.sliderSpeed,
                         cssEase: 'linear',
                         pauseOnHover: false,
-                        pauseOnDotsHover: true
+                        pauseOnDotsHover: true,
+                        adaptiveHeight: true
                     });
 
                     $('.slick-dots').hover(
@@ -142,7 +186,8 @@
             autoplaySpeed: 2600,
             arrows: true,
             pauseOnHover: true,
-            slidesToShow: 4
+            slidesToShow: 4,
+            adaptiveHeight: true
         });
 
 

@@ -1,6 +1,8 @@
 #footer{
     text-align: center;
     vertical-align: middle;
+    overflow: hidden;
+    padding: 0 0 45px;
 }
 #footer .top p{
     padding-bottom: 20px;
@@ -34,7 +36,6 @@
 }
 #footer .fake{
     display: inline-block;
-    vertical-align: middle;
     text-align: center;
     vertical-align: top;
     height:0;
@@ -42,8 +43,19 @@
 	font-size:0;
 	margin:0;
 }
-#footer .nav  ul{
-    list-style-type: circle;
+#footer .nav{
+    width: 30%;
+}
+#footer .nav  ul,
+#footer .nav  ul li{
+    list-style: circle;
+}
+#footer .nav  ul li{
+    float: left;
+    width: 50%;
+}
+#footer .nav  ul li a{
+    display: block;
 }
 #footer .contacts .mid{
     margin: 0 auto;
@@ -104,6 +116,9 @@
     line-height: 28px;    
 }
 #footer .bottom{
+    position: fixed;
+    left:0;
+    bottom:0;
     width: 100%;
     height: 45px;
     background: linear-gradient(to bottom, #36c3f1, #0b7699);

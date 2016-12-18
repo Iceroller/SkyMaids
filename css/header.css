@@ -57,6 +57,9 @@
     font-size: 11px;
     padding-top: 2px;
 }
+#header nav{
+    float: right;
+}
 #header nav ul{
     z-index: 20;
     position: relative;
@@ -90,19 +93,22 @@
     font-size: 16px;
     line-height: 20px;
     max-width: 25%;
+    position: relative;
 }
 #header .title:hover{
     border: 1px solid #98bece;
-    padding: 5px;
 }
 #header .open{
     display: none;
+    padding: 0 10px;
     font-size: 16px;
     line-height: 20px;
-    position: relative;
-    top: 0;
-    height: 0;
-    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: #e3f3f9;
+    border: 1px solid #c2e0ec;
+    top: 100%;
+    left:0;
 }
 #header .title:hover .open{
     display: block;
