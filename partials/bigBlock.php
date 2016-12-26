@@ -2,9 +2,9 @@
 <div class="bigBlock">
     <div class="container">
         <aside id="aside">
-           <?php include("partials/top.php"); ?>
-           <?php include("partials/mid.php"); ?>
-           <?php include("partials/bot.php"); ?>
+           <?php include("top.php"); ?>
+           <?php include("mid.php"); ?>
+           <?php include("bot.php"); ?>
         </aside>
         <content id="content">
             <div class="leftSide">
@@ -25,25 +25,25 @@
             <div class="rightSide">
                 <div class="block1">
                     <a href="#">
-                        <img src="../img/icons/ico-ad-block1.png" alt="sunny">
+                        <img src="img/icons/ico-ad-block1.png" alt="sunny">
                         <h4>Book now<span>and receive 5% off</span></h4>
                     </a>
                 </div>
                 <div class="block2">
                     <a href="#">
-                        <img src="../img/icons/ico-ad-block2.png" alt="sunny">
+                        <img src="img/icons/ico-ad-block2.png" alt="sunny">
                         <h4>Free Estimate</h4>
                     </a>
                 </div>
                 <div class="block3">
                     <a href="#">
-                        <img src="../img/icons/ico-ad-block3.png" alt="sunny">
+                        <img src="img/icons/ico-ad-block3.png" alt="sunny">
                         <h4>Refer a friend<span>and receive 25% off for you next appoinment</span></h4>
                     </a>
                 </div>
                 <div class="block4">
                     <a href="#">
-                        <img src="../img/icons/ico-ad-block4.png" alt="sunny">
+                        <img src="img/icons/ico-ad-block4.png" alt="sunny">
                         <h4>Payment</h4>
                     </a>
                 </div>

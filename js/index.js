@@ -90,7 +90,7 @@
                     el.slider.slick({
                         arrows: false,
                         dots: false,
-                        autoplay: true,
+                        autoplay: false,
                         autoplaySpeed: set.sliderAutoplaySpeed,
                         fade: true,
                         speed: set.sliderSpeed,
@@ -182,7 +182,7 @@
 
         $('.slider .wrap').slick({
             аccessibility: false,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2600,
             arrows: true,
             pauseOnHover: true,
