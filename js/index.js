@@ -95,8 +95,8 @@
                         fade: true,
                         speed: set.sliderSpeed,
                         cssEase: 'linear',
-                        pauseOnHover: false,
-                        pauseOnDotsHover: true,
+                        pauseOnHover: true,
+                        pauseOnDotsHover: false,
                         adaptiveHeight: true
                     });
 

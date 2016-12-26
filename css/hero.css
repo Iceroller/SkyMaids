@@ -21,7 +21,6 @@
     line-height: 0;
     display: inline-block;
     overflow: hidden;
-
 }
 #slick{
     width: 100%;
@@ -38,7 +37,6 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-
     height: 360px;
 }
 .hero .leftSide{
@@ -55,13 +53,19 @@
 }
 .hero h2{
     font-size: 18px;
-    color: darkolivegreen;
+    font-family: MyriadPro-Regular, Arial, sans-serif;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .hero .block{
     display: block;
-    color: fuchsia;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .hero p{
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 11px;
     color: #686868;
     padding: 10px 0 0 0;

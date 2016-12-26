@@ -1,0 +1,214 @@
+
+Наши ожидания от кандидата:
+
+Уверенное знание HTML, CSS, JavaScript, jQuery.
+Опыт взаимодействия с какими-либо из CMS (OpenCart, Joomla, WordPress).
+Понимание принципов ООП.
+Английский на уровне чтения и понимания технической документации.
+Чувство прекрасного в коде и в интерфейсах.
+У нас вы быстро научитесь (если не умели раньше):
+
+Оценивать объем работ и сроки.
+Давать обещания и выполнять их точно в срок.
+
+Быть человеком, который оперативно решает любые задачи.
+Понимать идею дизайнера по одному светлому взгляду.
+Любить новые технологии, которые упрощают жизнь разработчика и пользователя.
+Научитесь работать в команде и взаимодействовать со всеми участниками проекта.
+Условия:
+
+Работа в офисе в центре города.
+Испытательный срок 1 месяц (оплачиваемый).
+График работы с 9:00 до 18:00 или с 10:00 до 19:00
+Дружный молодой коллектив и адекватное руководство.
+Работа с большими интересными проектами.
+Рабочий день с 9.00 до 18.00.
+Обед с 12:00 до 13:00.
+Чай, кофе и печеньки — бесплатно
+Что нужно, чтобы попасть на собеседование:
+
+Пришлите ваше резюме на почту в формате PDF.
+Прикрепите к вашему резюме ссылки на ваше портфолио
+Укажите ссылку на ваш самый сложный проект, который есть в сети.
+В ответ получите тестовое задание.
+По выполнению — в течение суток ждите звонка с приглашением на собеседование.
+В резюме обязательно укажите ссылки на профили в социальных сетях.
+
+Вакансия открыта в г. Харьков.
+
+.........................................
+
+Опыт — от 3-х лет
+
+Сильные знания:
+
+Java Script
+JQuery
+Angular (обязательное условие!)
+Качественное понимание:
+
+Visual Studio
+HTML5/CSS3
+Резюме присылайте на русском/украинском.
+
+Обязанности:
+
+Front-end в проектах
+
+Условия работы:
+
+10?19 Пн-Пт
+уютный офис рядом с метро
+* Условий не много, отнеситесь внимательно, пожалуйста
+
+...................................................
+
+Required experience and skills:
+3+ years of experience in front-end development;
+Knowledge of ReactJS;
+Deep knowledge HTML/CSS3 skills;
+Ability and desire to create reliable high-quality software;
+Good communication skills;
+English - Intermediate level or higher.
+Would be a plus:
+Experience with Node JS;
+Experience with Mongo DB (or any other NoSQL DB);
+Experience with Flex, Material Design/ Material Design Lite
+Company profile:
+
+..................................................
+
+Requirements and technical skills:
+experience 1 + years
+deep knowledge HTML, CSS
+JavaScript, jQuery, Prototype
+SCSS / PostCSS / LESS
+Foundation / Bootstrap
+CMS Magento
+Cross-browser and mobile layout
+Git
+ 
+Bonus qualifications:
+Gulp, Grunt
+Linux
+ 
+Soft skills:
+focus on quality and results
+attention to details
+acceptance of responsibility
+curiosity and innovation
+understand basic logic things, business processes
+
+....................................................
+
+Для Стартап проекта (спортивная тематика) в помощь необходим Junior Front-End разработчик на полную занятость. С возможностью повышать свой уровень и ЗП по мере роста проекта.
+ 
+Помимо знания основ, очень хорошим плюсом будут являться знания:
+angularJS
+gulp
+django_templates
+ 
+Приветствуются порядочные и ответственные разработчики, заинтересованные как в профессиональном росте так и создании качественных и современных Веб приложений.
+ 
+Резюме пожалуйста направляйте на адрес Отправить резюме
+с указанием желаемой !!!!!CТАРТОВОЙ ЗП.!!!!!!
+
+...............................................
+
+-Навыки работы с React.js, React Native.
+-Знание английского языка Intermediateи выше
+-Ответственное отношение к поставленным задачам
+ 
+Дополнительно приветсвуется:
+ 
+-Знание Angular.js, Angular-ui, Jquery-ui, Twitter Bootstrap, less/scss, Meteor, Backbone.js, Ember.js, Knockout.js, Coffee Script, Jade
+-Знание или желание выучить Nodejs, PHP(Symfony), Python/Django, express/sailsjs
+-Понимание принципов ООП
+
+...........................................
+
+Необходимые навыки:
+Опыт работы с Angular 1.4 \ Angular 2 - обязательно (!!!);
+Опыт работы с HTML5, CSS3, Javascript, Node ;
+Опыт работы с Linux;
+Теоретические и практические знания Git;
+Опыт работы от 6 месяцев;
+Креативность и целеустремленность;
+Владение английским языком (на уровне Intermediate).
+
+......................................................
+
+Необходимые навыки:
+HTML5, CSS3;
+SASS, LESS;
+jQuery;
+Responsive;
+GULP, GRUNT;
+GIT, SVN;
+Bootstrap;
+
+...................................................
+
+2-3 года опыта в frontend-разработке;
+Опыт разработки пользовательских интерфейсов;
+Знание одного или нескольких фреймворков JavaScript;
+HTML5, CSS3;
+Владение одним или несколькими инструментами сборки, такими как WebPack, Gulp, Grunt, Bower;
+Знание кросс-браузерной, responsive и adaptive верстки;
+Использование CSS препроцессоров (sass, less);
+Знание ES 2015;
+Навыки взаимодействия с бекендом на Ruby on Rails и/или PHP фреймворками;
+Работа с шаблонизаторами (Slim/Haml).
+
+.................................................
+
+идеально знать CSS3, HTML5 (+api);
+понимать принципы верстки независимыми блоками, методологию БЭМ;
+уверенно владеть JavaScript и, особенно, jQeury;
+иметь опыт работы хотя бы с одним из фреймворков: Angular, Backbone, React;
+помнить основной набор команд GIT;
+дружить с браузерными инструментами разработчика (Chrome Devtools, FireBug);
+иметь в портфолио примеры адаптивной верстки и мобильных интерфейсов;
+уметь оценивать объем и сроки работ, а потом делать обещанное вовремя без лишних напоминаний;
+быть ответственным молодцом, которому интересно заниматься как скучными, так и весёлыми штуками;
+уметь понимать дизайнера, эффектно воплощать его идеи и оживлять интерфейс;
+английский для чтения - обязательно, английский для общения с заказчиками в чате и на звонках - очень желательно.
+ 
+Будет плюсом:
+знать основы PHP;
+иметь представление об Yii2 и Laravel;
+уметь использовать Node.js для автоматизации задач;
+любить все новое и технологии для ускорения фронтенд-разработки (ES-2015, Babel.js, WebPack);
+не пугаться командной строки и настройки Nginx;
+успешно закончить технический вуз.
+
+..........................................
+
+Необходимые навыки
+• Strong knowledge of HTML/CSS
+• Expert in AngularJS and jQuery
+• OOP and Patterns
+• English (intermediate)
+Будет плюсом
+• Nice to have at least basic knowledge of .NET
+
+.................................................
+
+Необходимые навыки
+2+ years of experience in professional software development
+1+ year of JavaScript experience
+Expertise in AngularJS (or React.js) and Node.js
+Understanding and applying architecture patterns
+Strong knowledge on object oriented methodologies (OOP/OOD)
+Passion both for Front-end and for Back-end software development
+Good spoken and written English (at least Intermediate level)
+Будет плюсом
+Experience with NoSQL databases (MongoDB or other) 
+Expertise in UNIX-systems
+Extensive cross-browser development experience
+Knowledge of any kinds of testing (unit, functional, performance etc.)
+
+...........................................................
+
+
+

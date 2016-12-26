@@ -1,9 +1,13 @@
 @import "global.css";
-@import "fontello.css";
+@import "font-face.css";
+@import "footer.css";
 @import "bgFix.css";
 @import "header.css";
 @import "hero.css";
 @import "bigBlock.css";
+@import "top.css";
+@import "mid.css";
+@import "bot.css";
 @import "slick.css";
 @import "slider.css";
 @import "slick.css";

@@ -1,29 +1,10 @@
+<!--bigBlock start-->
 <div class="bigBlock">
     <div class="container">
         <aside id="aside">
-            <div class="top">
-                <div class="intro"><p>Services</p></div>
-                <ul>
-                    <li><a href="#">Regular Cleaning</a></li>
-                    <li><a href="#">Recurring Cleaning</a></li>
-                    <li><a href="#">Deep Cleaning</a></li>
-                    <li><a href="#">Move in/out Cleaning</a></li>
-                    <li><a href="#">Office Cleaning</a></li>
-                </ul>
-            </div>
-            <div class="mid">
-                <div class="title"><p>Office hours:</p></div>
-                <ul>
-                    <li>Mon-Fre: <span>7:00 am - 7:00 pm</span></li>
-                    <li>Saturday: <span>7:00 am - 5:00 pm</span></li>
-                    <li>Sunday: <span>7:00 am - 3:00 pm</span></li>
-                    <li><a href="#">Online orders accepted 24/7</a></li>
-                </ul>
-            </div>
-            <div class="bot">
-                <h3>Join Reward Program</h3>
-                <h4>Every 10th Cleaning is 50% off</h4>
-            </div>
+           <?php include("partials/top.php"); ?>
+           <?php include("partials/mid.php"); ?>
+           <?php include("partials/bot.php"); ?>
         </aside>
         <content id="content">
             <div class="leftSide">
@@ -39,15 +20,40 @@
                     <li>On-time arrival guarantee</li>
                     <li>Make you home look and feel like new again with our professional.</li>
                 </ul>
-                <p>Leave the work to us and welcome <span>to a clean and comfortable home!</span></p>
+                <strong>Leave the work to us and welcome <span>to a clean and comfortable home!</span></strong>
             </div>
             <div class="rightSide">
-                <div class="block1"></div>
-                <div class="block2"></div>
-                <div class="block3"></div>
-                <div class="block4"></div>
-                <div class="block5"></div>
+                <div class="block1">
+                    <a href="#">
+                        <img src="../img/icons/ico-ad-block1.png" alt="sunny">
+                        <h4>Book now<span>and receive 5% off</span></h4>
+                    </a>
+                </div>
+                <div class="block2">
+                    <a href="#">
+                        <img src="../img/icons/ico-ad-block2.png" alt="sunny">
+                        <h4>Free Estimate</h4>
+                    </a>
+                </div>
+                <div class="block3">
+                    <a href="#">
+                        <img src="../img/icons/ico-ad-block3.png" alt="sunny">
+                        <h4>Refer a friend<span>and receive 25% off for you next appoinment</span></h4>
+                    </a>
+                </div>
+                <div class="block4">
+                    <a href="#">
+                        <img src="../img/icons/ico-ad-block4.png" alt="sunny">
+                        <h4>Payment</h4>
+                    </a>
+                </div>
+                <div class="block5">
+                    <a href="#">
+                        <h4 class="block5_h4">Packages</h4>
+                    </a>
+                </div>
             </div>
         </content>
-    </div>
+    </div><!--container-->
 </div>
+<!--bigBlock end-->

@@ -1,0 +1,31 @@
+.bot{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #dceef7;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: linear-gradient(45deg, #1a90c6, #1a90c6 5%,  #fff 5%, #fff 11%, #e3f2fa 12%, #ecf9ff 13%, #ecf9ff 19%, #e3f2fa 20%, #fff 21%, #fff 26%, #e3f2fa 27%, #ecf9ff 28%, #ecf9ff 35%, #e3f2fa 36%, #fff 37%, #fff 42%, #e3f2fa 43%, #ecf9ff 44%, #ecf9ff 50%, #e3f2fa 51%, #fff 52%, #fff 57%, #e3f2fa 58%, #ecf9ff 59%, #ecf9ff 66%, #e3f2fa 67%, #fff 68%, #fff  73%, #e3f2fa 74%, #ecf9ff 75%, #ecf9ff 81%, #e3f2fa 82%, #fff 83%, #fff 88%, #1a90c6 88%, #1a90c6 97%, #fff 97%, #fff);
+}
+.bot a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.bot h4{
+    color: #414141;
+    font-size: 24px;
+    font-family: MyriadPro-Regular, Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.bot h4 span{
+    color: #12516d;
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+}

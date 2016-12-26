@@ -4,28 +4,27 @@
     overflow: hidden;
     padding: 0 0 45px;
 }
-#footer .top p{
-    padding-bottom: 20px;
-    font-weight: 700;
-    color: #063853;
-}
-#footer .nav, #footer .nav li, #footer .contacts, #footer .mid{
-    text-align: left;
-}
-#footer .top{
+#footer .topPart{
     background: #e1f8ff;
-    height: 160px;
     width: 100%;
     border: 1px solid #fff;
     box-shadow: 0 -1px 0 1px #e6eced;
-    padding-top: 15px;
+    padding: 15px 0 20px 0;
 }
-#footer .wrap{
-    text-align: justify;
-    line-height: 0;
-    font-size: 1px;
-    text-justify: newspaper;
-    width: 100%;
+#footer .topPart p{
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #063853;
+    font-family: MyriadPro-Regular, Arial, sans-serif;
+    font-size: 14px;
+}
+#footer .nav, #footer .nav li, #footer .contacts, #footer .center{
+    text-align: left;
+}
+#footer .wrap:after{
+    display: block;
+    content: "";
+    clear: both;
 }
 #footer .nav, #footer .contacts, #footer .socials{
     font-size: 16px;
@@ -34,42 +33,51 @@
     vertical-align: top;
     width: 32%;
 }
-#footer .fake{
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    height:0;
-	line-height:0;
-	font-size:0;
-	margin:0;
-}
 #footer .nav{
-    width: 30%;
+    float: left;
+}
+#footer .nav ul:after{
+    display: block;
+    content: "";
+    clear: both;
 }
 #footer .nav  ul,
 #footer .nav  ul li{
-    list-style: circle;
+    list-style: circle inside;
 }
 #footer .nav  ul li{
     float: left;
     width: 50%;
+    padding-bottom: 10px;
 }
 #footer .nav  ul li a{
     display: block;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 11px;
 }
-#footer .contacts .mid{
+#footer .contacts{
+    text-align: center;
+}
+#footer .contacts .center{
     margin: 0 auto;
     display: inline-block;
     vertical-align: middle;
 }
 #footer .contacts li{
-    line-height: 22px;
+    padding-bottom: 5px;
 }
 #footer .contacts a{
+    font-family: Geneva, Arial, sans-serif;
+    font-size: 14px;
+    color: 1f1f1f;
+}
+#footer .contacts .serv{
     color: #02607f;
     line-height: 30px;
+    font-size: 18px;
 }
 #footer .socials{
+    float: right;
     text-align: right;
 }
 #footer .socials p{
@@ -77,7 +85,7 @@
     display: inline-block;
     padding-right: 10px;
 }
-#footer .soc {
+#footer .soc{
 	margin: 0 auto;
     text-align: center;
     display: inline-block;
@@ -87,6 +95,10 @@
     vertical-align: middle;
     height: 28px;
     width: 28px;
+}
+#footer .soc li:hover{
+    transform: scale(1.1);
+    transition: all .3s;
 }
 #footer .fb{
     background: #43609C;
@@ -126,4 +138,9 @@
     line-height: 45px;
     border: 1px solid #fff;
     box-shadow: 0 -1px 0 1px #37c5f3;
+    z-index: 100;
+}
+#footer .bottom{
+    font-size: 11px;
+    font-family: Tahoma, Arial, Sans-serif;
 }

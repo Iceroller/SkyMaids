@@ -1,5 +1,6 @@
+<!-- footer start -->
 <footer id="footer">
-    <div class="top">
+    <div class="topPart">
        <div class="container">
             <div class="wrap">
                 <div class="nav">
@@ -14,12 +15,12 @@
                     </ul>
                 </div>
                 <div class="contacts">
-                    <div class="mid">
+                    <div class="center">
                         <p>Contacts</p>
                         <ul>
-                            <li>773-747-2475 (Local)</li>
-                            <li>888-747-2475 (Toll Free)</li>
-                            <li>888-477-6951 (Fax)</li>
+                            <li><a href="#">773-747-2475 (Local)</a></li>
+                            <li><a href="#">888-747-2475 (Toll Free)</a></li>
+                            <li><a href="#">888-477-6951 (Fax)</a></li>
                             <li><a class="serv" href="#">service@skymaids.com</a></li>
                         </ul>
                     </div>
@@ -62,5 +63,5 @@
     </div>
     <div class="arrow-right"></div>
 </footer><!--footer-->
-
+<!-- footer end -->
     <?php include("js-connections.php"); ?> 
