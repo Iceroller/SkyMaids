@@ -1,6 +1,9 @@
 .slider{
     margin-bottom: 30px;
 }
+.slider * {
+    outline: none !important;
+}
 .slider .holder{
     width: 100%;
 }

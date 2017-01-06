@@ -6,7 +6,7 @@
                 <div class="slide">
                     <a href="#">
                         <div>
-                            <img src="../img/icons/ico-gift.png" alt="gift">
+                            <img src="img/icons/ico-gift.png" alt="gift">
                             <h4>Baby Shower Gift</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, iusto dolor sit amet.</p>
                             <span>more</span>
@@ -16,7 +16,7 @@
                 <div class="slide">
                     <a href="#">
                         <div>
-                            <img src="../img/icons/ico-gift.png" alt="gift">
+                            <img src="img/icons/ico-gift.png" alt="gift">
                             <h4>Baby Shower Gift</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, iusto dolor sit amet.</p>
                             <span>more</span>
@@ -26,7 +26,7 @@
                 <div class="slide">
                     <a href="#">
                         <div>
-                            <img src="../img/icons/ico-gift.png" alt="gift">
+                            <img src="img/icons/ico-gift.png" alt="gift">
                             <h4>Baby Shower Gift</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, iusto dolor sit amet.</p>
                             <span>more</span>
@@ -36,7 +36,7 @@
                 <div class="slide">
                     <a href="#">
                         <div>
-                            <img src="../img/icons/ico-gift.png" alt="gift">
+                            <img src="img/icons/ico-gift.png" alt="gift">
                             <h4>Baby Shower Gift</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, iusto dolor sit amet.</p>
                             <span>more</span>
@@ -46,7 +46,7 @@
                 <div class="slide">
                     <a href="#">
                         <div>
-                            <img src="../img/icons/ico-gift.png" alt="gift">
+                            <img src="img/icons/ico-gift.png" alt="gift">
                             <h4>Baby Shower Gift</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, iusto dolor sit amet.</p>
                             <span>more</span>
