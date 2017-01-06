@@ -6,7 +6,7 @@
                 <a href="../homepage.php">SkyMaids</a>
             </strong>
             <div class="contact">
-                <p>Call: 773-747-2475 </p>
+                <p>Call: <a href="tel:#">773-747-2475</a> </p>
                 <a href="#">Live Chat</a>
             </div>
         </div><!--leftSide-->
@@ -31,7 +31,7 @@
                         <a class="unsubtitle" href="#">FAQ</a>
                     </li>
                     <li class="title">
-                        <a href="#">Prices</a>
+                        <a class="subtitle" href="#">Prices</a>
                     </li>
                     <li class="title">
                         <a class="subtitle" href="#">Jobs</a>

@@ -18,9 +18,9 @@
                     <div class="center">
                         <p>Contacts</p>
                         <ul>
-                            <li><a href="#">773-747-2475 (Local)</a></li>
-                            <li><a href="#">888-747-2475 (Toll Free)</a></li>
-                            <li><a href="#">888-477-6951 (Fax)</a></li>
+                            <li><a href="tel:#">773-747-2475 (Local)</a></li>
+                            <li><a href="tel:#">888-747-2475 (Toll Free)</a></li>
+                            <li><a href="tel:#">888-477-6951 (Fax)</a></li>
                             <li><a class="serv" href="#">service@skymaids.com</a></li>
                         </ul>
                     </div>

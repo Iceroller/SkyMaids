@@ -206,8 +206,11 @@ textarea:focus::placeholder {color:transparent;}
 
 /*reset end*/
 
+.body{
+    position: relative;
+}
 .container{
-    width: 80%;
+    width: 1024px;
     margin: 0 auto;
     height: 100%;
 }
