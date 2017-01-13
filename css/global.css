@@ -205,8 +205,7 @@ textarea:focus:-ms-input-placeholder {color:transparent;}
 textarea:focus::placeholder {color:transparent;}
 
 /*reset end*/
-
-.body{
+body{
     position: relative;
 }
 .container{
@@ -219,4 +218,21 @@ textarea:focus::placeholder {color:transparent;}
     background: #fff;
     z-index: 0;
     min-height: 100%;
+}
+/****************************************************************              TABLET              ***********************************************/
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 978px;
+    } 
+}
+/****************************************************************              MOBILE              ***********************************************/
+@media screen and (max-width: 978px) {
+    .container{
+        width: 748px;
+    } 
+}
+@media screen and (max-width: 748px) {
+    .container{
+        width: 100%;
+    } 
 }

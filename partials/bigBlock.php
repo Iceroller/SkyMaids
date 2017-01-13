@@ -2,11 +2,11 @@
 <div class="bigBlock">
     <div class="container">
         <aside id="aside">
-           <?php include("top.php"); ?>
-           <?php include("mid.php"); ?>
-           <?php include("bot.php"); ?>
+            <?php include("top.php"); ?>
+            <?php include("mid.php"); ?>
+            <?php include("bot.php"); ?>
         </aside>
-        <content id="content">
+        <div id="content">
             <div class="leftSide">
                 <h2>Why Hire SkyMaids?</h2>
                 <ul>
@@ -23,37 +23,44 @@
                 <strong>Leave the work to us and welcome <span>to a clean and comfortable home!</span></strong>
             </div>
             <div class="rightSide">
-                <div class="block1">
+                <div class="block1 block">
                     <a href="#">
                         <img src="img/icons/ico-ad-block1.png" alt="sunny">
                         <h4>Book now<span>and receive 5% off</span></h4>
                     </a>
                 </div>
-                <div class="block2">
+                <div class="block2 block">
                     <a href="#">
                         <img src="img/icons/ico-ad-block2.png" alt="sunny">
                         <h4>Free Estimate</h4>
                     </a>
                 </div>
-                <div class="block3">
+                <div class="block3 block">
                     <a href="#">
                         <img src="img/icons/ico-ad-block3.png" alt="sunny">
                         <h4>Refer a friend<span>and receive 25% off for you next appoinment</span></h4>
                     </a>
                 </div>
-                <div class="block4">
+                <div class="block4 block">
                     <a href="#">
                         <img src="img/icons/ico-ad-block4.png" alt="sunny">
                         <h4>Payment</h4>
                     </a>
                 </div>
-                <div class="block5">
+                <div class="block5 block">
                     <a href="#">
                         <h4 class="block5_h4">Packages</h4>
                     </a>
                 </div>
+                <div class="asideBlock block"><?php include("bot.php"); ?></div>
             </div>
-        </content>
+        </div>
+        <div class="asideMobile">
+            <div class="asideWrap">
+                <div class="wrapper"><?php include("top.php"); ?></div>
+                <div class="wrapper rightWrap"><?php include("mid.php"); ?></div>
+            </div>
+        </div>  
     </div><!--container-->
 </div>
 <!--bigBlock end-->

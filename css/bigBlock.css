@@ -63,7 +63,7 @@
     padding: 10px 0 40px 0;
 }
 .bigBlock .leftSide li{
-    line-height: 40px;
+    padding: 13px;
     font-family: Tahoma, Arial, sans-serif;
     font-size: 11px;
     color: #526268;
@@ -160,4 +160,85 @@
     text-align: center !important;
     font-style: normal !important;
     vertical-align: middle;
+}
+.bigBlock .asideMobile, .bigBlock .asideBlock{
+    display: none;
+}
+
+/****************************************************************              MOBILE              ***********************************************/
+@media screen and (max-width: 978px) {
+    .bigBlock #aside{
+        display: none;
+    }
+    .bigBlock #content{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .bigBlock .asideMobile{
+        display: block;
+    }
+    .bigBlock .asideMobile .asideWrap{
+        margin: 0 auto;
+    }
+    .bigBlock .asideMobile .wrapper{
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .bigBlock .asideMobile .rightWrap{
+        padding-left: 10px;
+    }
+    .bigBlock .top li{
+        padding: 15px 10px;
+    }
+    .bigBlock .mid dt, .bigBlock .mid span{
+        padding: 19px 10px;
+    }
+}    
+@media screen and (max-width: 665px) {
+    .bigBlock #content .rightSide, .bigBlock #content .leftSide{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .bigBlock #content .rightSide .block{
+        width: 48%;
+        margin: 0 0 5px 0;
+        display: inline-block;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .bigBlock #content .rightSide .block:nth-child(odd){
+        margin-right: 5px;
+    }
+    .bigBlock .asideBlock .bot{
+        border: 1px solid #dceef7;
+        border-radius: 3px;
+    }
+    .bigBlock .asideBlock h4{
+        color: #414141;
+        font-size: 24px;
+        font-family: MyriadPro-Regular, Arial, sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 565px) {
+    .bigBlock #content .rightSide .block{
+        width: 100%;
+        margin: 0 0 5px 0;
+        display: inline-block;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 450px) {
+    .bigBlock .asideMobile .wrapper{
+        display: block;
+        width: 100%;
+    }
 }

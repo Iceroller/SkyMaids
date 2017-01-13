@@ -20,6 +20,10 @@
     display: block;
     height: 60px;
     margin-top: -40px;
+    background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
 }
 .hero .wrapper{
     height: calc(100% - 4px);
@@ -53,6 +57,34 @@
     width: 60%;
     overflow: hidden;
 }
+.hero #example_video_1{
+    width: 610px;
+    height: 360px;
+}
+.hero .video-js .vjs-big-play-button{
+    height: 80px;
+    width: 135px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #fff, #40bae2 20%, #1b8dc4);
+    border: none;
+    border: 1px solid rgba(0,0,0,0);
+    -moz-background-clip: border;     
+    -webkit-background-clip: border;  
+    background-clip: border-box;
+    -moz-background-clip: padding;     
+    -webkit-background-clip: padding; 
+    background-clip: padding-box;
+    -moz-background-clip: content;     
+    -webkit-background-clip: content;  
+    background-clip: content-box;      
+    box-shadow: 0 0 20px 0px rgba(51, 51, 51, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.vjs-icon-play:before, .video-js .vjs-big-play-button:before, .video-js .vjs-play-control:before{
+    
+}
 .img--holder{
     width: 100%;
 }
@@ -64,13 +96,14 @@
 .hero h2{
     font-size: 18px;
     font-family: MyriadPro-Regular, Arial, sans-serif;
-    background: -webkit-linear-gradient(red, yellow);
+    background: -webkit-linear-gradient(#767676, #424242);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 600;
 }
 .hero .block{
     display: block;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#49b8e1, #1584ad);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -79,14 +112,11 @@
     font-size: 11px;
     color: #686868;
     padding: 10px 0 0 0;
-    
 }
 .hero p span{
     color: #686868;
     font-weight: 700;
 }
-/*////////////////////////////////////////*/
-
 #wrapper {
     background-color: #fff;
     width: 100%;
@@ -210,10 +240,47 @@ div.box.opened .toggle .close{
 .slick-arrow.slick-hidden {
     display: none;
 }
-/*video css adds*/
-.hero .html5-video-player svg .ytp-large-play-button-bg {
-    fill: yellow !important;
+
+/****************************************************************              TABLET              ***********************************************/
+@media screen and (max-width: 1024px) {
+    .hero h2{
+    font-size: 16px;
 }
-.ytp-large-play-button{
-    background: blue !important;
+/****************************************************************              MOBILE              ***********************************************/
+@media screen and (max-width: 978px) {
+    .hero .border{
+        height: 440px;
+    }
+    .hero .leftSide, .hero .rightSide{
+        display: block;
+        width: 100%;
+    }
+    .hero #example_video_1{
+        width: 100%;
+        height: 360px;
+    }
+    .hero h2{
+        text-align: center;
+    }
+    .hero .readme{
+        display: none;
+    }
+    .hero .border:after{
+        margin-top: -30px;
+    }
+}
+    @media screen and (max-width: 675px) {
+    .hero .border:after{
+        margin-top: -20px;
+    }
+}
+@media screen and (max-width: 535px) {
+    .hero .border:after{
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 372px) {
+    .hero .border{
+        height: 460px;
+    }
 }

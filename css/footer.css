@@ -41,15 +41,17 @@
     content: "";
     clear: both;
 }
+#footer .nav  ul{
+    padding-left: 17px;
+}
 #footer .nav  ul,
 #footer .nav  ul li{
     list-style: circle outside;
 }
 #footer .nav  ul li{
     float: left;
-    width: 155px;
+    width: 145px;
     padding-bottom: 10px;
-    margin: 0 0 17px;
 }
 #footer .nav  ul li a{
     display: block;
@@ -70,7 +72,7 @@
 #footer .contacts a{
     font-family: Geneva, Arial, sans-serif;
     font-size: 14px;
-    color: 1f1f1f;
+    color: #1f1f1f;
 }
 #footer .contacts .serv{
     color: #02607f;
@@ -85,11 +87,13 @@
     color: #067fad;
     display: inline-block;
     padding-right: 10px;
+    vertical-align: middle;
 }
 #footer .soc{
 	margin: 0 auto;
     text-align: center;
     display: inline-block;
+    vertical-align: middle;
 }
 #footer .soc li{
     display: inline-block;
@@ -144,4 +148,39 @@
 #footer .bottom{
     font-size: 11px;
     font-family: Tahoma, Arial, Sans-serif;
+}
+/****************************************************************              MOBILE              ***********************************************/
+@media screen and (max-width: 978px) {
+    #footer .nav, #footer .contacts{
+        width: 50%;
+        margin: 0 0 20px 0;
+    } 
+    #footer .socials, #footer .socials .soc{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footer .socials p{
+        padding: 0 0 10px 0;
+    }
+}
+@media screen and (max-width: 630px) {
+    #footer .nav, #footer .contacts{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 20px 0;
+        text-align: center;
+    }
+    #footer .nav ul{
+        display: block;
+        margin: 0 auto;
+    }
+    #footer .nav ul li{
+        width: 30%;
+        float: right;
+    }
+    #footer .contacts p{
+        text-align: center;
+    }
 }

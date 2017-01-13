@@ -67,8 +67,6 @@
     left: 5px;
     top: 40%;
     transform: translate(-50%);
-    width: 0;
-    height: 0;
     background: none;
     font-size: 0px;
     transform: scale(2, 1);
@@ -101,8 +99,6 @@
     top: 40%;
     transform: translate(-50%);
     right: 5px;
-    width: 0;
-    height: 0;
     transform: scale(2, 1);
     background: none;
     font-size: 0px;
@@ -122,5 +118,12 @@
 	border-width: 16px;
 	margin-top: -17px;
     margin-left: -6px;
+}
+/****************************************************************              MOBILE              ***********************************************/
+@media screen and (max-width: 333px) {
+    .slider .slide div{
+        height: 115px;
+        width: 190px;
+    }
 }
 

@@ -14,8 +14,13 @@
             <div class="text">
                 <p>We specialize in professional residential and commercial cleaning service in Chicago area.</p>
             </div>
-            <nav>
-                <ul>
+            <div id="mobMenuButton">
+                <span class="menu-icon x2">
+                    <span class="lines"></span>
+                </span>
+            </div>
+            <nav id="mobileMenu">
+                <ul class="mobMenu">
                     <li class="title">
                         <a class="subtitle" href="#">Company</a>
                         <ul class="dropDown">
@@ -39,7 +44,6 @@
                     <li class="title">
                         <a class="subtitle" href="#">Contacts</a>
                     </li>
-                    
                 </ul>
             </nav>
         </div><!--rightSide-->

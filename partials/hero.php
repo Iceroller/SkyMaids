@@ -2,12 +2,12 @@
 <div class="hero">
     <div class="container">
         <div class="border">
-            <div class="wrapper ">
+            <div class="wrapper">
                 <div id="slick">
                     <div>
                         <div class="leftSide">
                             <div class="img--holder">
-                                <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264" poster="http://vjs.zencdn.net/v/oceans.png" data-setup="{}">
+                                <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none"  poster="http://vjs.zencdn.net/v/oceans.png" data-setup="{}">
                                     <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
                                     <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
                                     <source src="http://vjs.zencdn.net/v/oceans.ogv" type="video/ogg">
@@ -42,7 +42,6 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provid quatur odio harum nihil, aliquam! Maiores ipsum dolor sit amet, consectetur adipisicing elit. </p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident debitis officiis consequuntur fugiat. </p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident debitis officiis consequuntur fugiat, voluptatum quo laborum aspernatur perspiciatis, in nobis, maiores consequatur odio harum nihil, aliquam! Maiores ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                                
                             </div>
                         </div>
                     </div>
