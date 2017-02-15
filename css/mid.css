@@ -17,10 +17,12 @@
     background: linear-gradient(to bottom, #fff, #e5f6ff);
     border: 1px solid #dceef7;
 }
-.mid dl{
-    background: #ffffff;
+.mid .dlWrap{
     border: 1px solid #dceef7;
     border-radius: 3px;
+}
+.mid dl{
+    background: #ffffff;
     font-size: 11px;
     padding: 0 30px 0 0;
 }
@@ -40,7 +42,7 @@
     display: block;
     border: none;
     border-radius: 0px;
-    padding: 8px 10px;
+    padding: 0 10px 15px 10px;
     text-align: left;
     vertical-align: middle;
 }
